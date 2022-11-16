@@ -1,6 +1,6 @@
 # METODOLOGIAS AVANZADAS DE DESARROLLO DE SOFTWARE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto fue iniciado con [Create React App](https://github.com/facebook/create-react-app).
 
 
 ## Nombre de los integrantes
