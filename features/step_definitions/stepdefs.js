@@ -24,7 +24,7 @@ const { Given, When, Then } = require('@cucumber/cucumber');
       const fechasApartadas = ['20/10/2022','20/01/2022','20/08/2022','12/12/2022']
       
       const validadFecha = (fecha) => {
-       return !fechasApartadas.find((item)=> item == fecha)
+       return fechasApartadas.find((item)=> item == fecha)
       }
 
       When('Al seleccionar la fecha {string} se valida si está disponible', function (fecha) {
