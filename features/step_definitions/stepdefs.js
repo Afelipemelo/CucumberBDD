@@ -35,8 +35,29 @@ const { Given, When, Then } = require('@cucumber/cucumber');
         });
 
 
+  //----------------------------------------------
+          When('Genera una cita y envia la informacion {string} {string} {string} {string} {string} {string}', function (string, string2, string3, string4, string5, string6) {
+                 
+                  if(validarCampos(string, string2, string3, string4, string5, string6)){
+              
+                         if(validadFecha(string3)){
+                          this.validateCita = 'true';
+                         }else{
+                          this.validateCita = 'false';
+                         }
 
+                         
+                  }else{
+                    this.validateCita = 'false';
 
+                  }
+          });
+ 
+
+          Then('sabe si se puede agendar la cita {string}', function (string) {
+            assert.strictEqual(this.validateCita, string);
+          });
+ //----------------------------------------------
 
 
 

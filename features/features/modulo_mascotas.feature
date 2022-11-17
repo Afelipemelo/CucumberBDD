@@ -32,5 +32,20 @@
       Examples:
 
         | fecha        |
-        | 20/10/2022   |
+        | 21/10/2022   |
         | 20/08/2025   |
+
+#-------------------
+
+    Scenario Outline: validar si se puede agendar la cita 
+         Given El usuario
+
+         When Genera una cita y envia la informacion "<mascota>" "<propietario>" "<fecha>" "<hora>" "<Sintomas>" "<estado>"
+
+         Then sabe si se puede agendar la cita "<estado>"
+
+      Examples:
+
+        | mascota | propietario | fecha        |hora   | Sintomas |estado |
+        | REX     | pepito     | 22/10/2022  |  7:00 | malito       |true |
+        | pepa    |            | 20/10/2022   | 7:00 | bueno    |false  |
