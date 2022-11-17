@@ -4,7 +4,7 @@
    ver el historial 
 
 
-     Scenario Outline: verificar campos del formulario
+     Scenario Outline: verificar campos del formulario 
 
          Given El usuario
 
@@ -18,6 +18,8 @@
         | REX     | pepito     | 20/10/2022  |  7:00 | malito       |true   |
         | pepa    |            | 20/10/2022   | 7:00 | bueno    |false  |
        
+
+
 
 
 # Feature: Is it Friday yet?

@@ -21,6 +21,16 @@ const { Given, When, Then } = require('@cucumber/cucumber');
       });
 
 
+      Given('El usuario', function () {    
+      });
+  
+      When('Selecciona una fecha para validar {string}', function (string) {
+        //this.ejemplo =  validarCampos(string, string2, string3, string4, string5, string6)
+      
+      });
+      Then('sabe si todos los campos estan completos {string}', function (respuesta) {
+          assert.strictEqual(this.ejemplo, respuesta);
+        });
 
 
 
