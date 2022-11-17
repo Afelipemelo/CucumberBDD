@@ -4,7 +4,7 @@
    ver el historial 
 
 
-     Scenario Outline: verificar campos del formulario
+     Scenario Outline: verificar campos del formulario 
 
          Given El usuario
 
