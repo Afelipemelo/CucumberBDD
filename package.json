@@ -41,5 +41,18 @@
   },
   "devDependencies": {
     "@cucumber/cucumber": "^8.8.0"
-  }
+  },
+  "description": "Este proyecto fue iniciado con [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Afelipemelo/CucumberBDD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Afelipemelo/CucumberBDD/issues"
+  },
+  "homepage": "https://github.com/Afelipemelo/CucumberBDD#readme"
 }
