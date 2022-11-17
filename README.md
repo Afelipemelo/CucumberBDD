@@ -50,6 +50,17 @@ La compilación se minimiza y los nombres de archivo incluyen los hashes.
 
 Consulte la sección sobre [deployment](https://facebook.github.io/create-react-app/docs/deployment) para obtener más información.
 
+## Historias de usuario 
+    - :white_check_mark: __Como__ Programa __quiero__ validar que todos los campos esten llenos, __para__ agendar una cita.
+
+    - :white_check_mark: __Como__ Programa __quiero__ validar que no se agenden citas para el mismo día y la misma hora , __para__ que no existan citas al mismo tiempo .
+
+    - :white_check_mark: __Como__ Administrador __quiero__ agendar citas, __para__ llevar un control de todas las citas .
+
+    - :white_check_mark: __Como__ Administrador __quiero__ ver las citas agendadas , __para__ ver la disposición que tiene el doctor .
+
+    - :white_check_mark: __Como__ Administrador __quiero__ eliminar las citas previamente agendadas  , __para__ actualizar la disposición del doctor .
+
 ## Conclucion del aprendizaje 
 
 Gracias a esta actividad y al curso en general tuve la oportunidad de mejorar mis conocimientos y aprender muchas cosas nuevas que claramente se estan utilizando en el mercado actual como la metodologia SCRUM y aprendi a utilizar la herramienta cucumber para el desarrollo basado en comportamiento ademas de esto aprendi sobre el lenguaje Gherkin
