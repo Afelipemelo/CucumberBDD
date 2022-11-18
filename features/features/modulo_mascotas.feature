@@ -49,3 +49,18 @@
         | mascota | propietario | fecha        |hora   | Sintomas |estado |
         | REX     | pepito     | 22/10/2022  |  7:00 | malito       |true |
         | pepa    |            | 20/10/2022   | 7:00 | bueno    |false  |
+
+#-------------------
+
+    # Scenario Outline: Visualizar las citas agendas
+    #      Given El administrador
+
+    #      When Genera una cita y envia la informacion "<mascota>" "<propietario>" "<fecha>" "<hora>" "<Sintomas>" "<estado>"
+
+    #      Then sabe si se puede agendar la cita "<estado>"
+
+    #   Examples:
+
+    #     | mascota | propietario | fecha        |hora   | Sintomas |estado |
+    #     | REX     | pepito     | 22/10/2022  |  7:00 | malito       |true |
+    #     | pepa    |            | 20/10/2022   | 7:00 | bueno    |false  |
