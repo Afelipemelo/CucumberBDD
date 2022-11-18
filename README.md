@@ -5,11 +5,11 @@ Este proyecto fue iniciado con [Create React App](https://github.com/facebook/cr
 
 ## Nombre de los integrantes
     
-    ´´´
+    ```
     Gelber Quimbayo
     Sebastian Ocampo 
     Andres Felipe Melo Santos
-    ´´´
+    ```
 
 ## Herraminetas utilizadas y sus versiones 
 
